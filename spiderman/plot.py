@@ -20,6 +20,8 @@ def get_star_png():
 	image = read_png(png_name)
 	return image
 
+#this is a test comment
+
 def plot_system(spider_params,t,ax=False,min_temp=False,max_temp=False,temp_map=False,min_bright=0.2,use_phase=False,show_cax=True,mycmap=plt.cm.inferno,theme='white',show_axes=True):
 
 	if theme == 'black':
